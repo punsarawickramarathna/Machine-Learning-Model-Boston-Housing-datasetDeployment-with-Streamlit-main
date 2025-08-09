@@ -88,29 +88,8 @@ The Boston Housing dataset is widely used in regression problems, small enough f
 
 ---
 
-## 📸 7. Screenshots
 
-| Home Page | Prediction Form |
-|-----------|-----------------|
-| ![](images/home.png) | ![](images/predict.png) |
-
-| Model Performance | Feature Importance |
-|-------------------|--------------------|
-| ![](images/performance.png) | ![](images/feature_importance.png) |
-
----
-
-## 💡 8. Reflection on Learning Outcomes
-Through this project, I learned:
-- How to preprocess tabular datasets for ML models
-- Saving and loading trained models with `pickle`
-- Designing interactive UI using **Streamlit**
-- Deploying Python applications to **Streamlit Cloud**
-- Troubleshooting cloud deployment issues
-
----
-
-## 📂 9. Project Structure
+## 📂 7. Project Structure
 ```
 
 ├── app.py                  # Main Streamlit application
@@ -129,7 +108,7 @@ Through this project, I learned:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/boston-housing-streamlit.git
+git clone https://github.com/punsarawickramarathna/boston-housing-streamlit.git
 cd boston-housing-streamlit
 ````
 
@@ -176,7 +155,7 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 ## 👨‍💻 14. Author
 
-**Your Name** – BSc Hons in Information Technology
+**Punsara Wickramarathna** – BSc(Hons) in Information Technology
 GitHub: [@yourusername](https://github.com/yourusername)
 
 ```

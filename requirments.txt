@@ -1,7 +1,9 @@
 streamlit
-scikit-learn
 pandas
 numpy
 matplotlib==3.7.1
+Pillow
 seaborn
+scikit-learn
 statsmodels
+plotly

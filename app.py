@@ -4,13 +4,16 @@ import pandas as pd
 import numpy as np
 import pickle
 
-import seaborn as sns
-
 
 try:
     import matplotlib.pyplot as plt
 except ModuleNotFoundError:
     plt = None
+
+try:
+    import seaborn as sns
+except ModuleNotFoundError:
+    sns = None
 
 # ---------------------------
 # Load Data & Model

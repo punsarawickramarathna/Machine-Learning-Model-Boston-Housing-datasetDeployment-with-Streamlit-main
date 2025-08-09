@@ -20,7 +20,7 @@ except ModuleNotFoundError:
 # ---------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv('D:/3 year 2sem/Machine_Learning_Model_Deployment_Streamlit__Boston_Housing_Dataset/Data/BostonHousing.csv')
+    return pd.read_csv('Data/BostonHousing.csv')
 
 @st.cache_resource
 def load_model():

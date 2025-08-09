@@ -24,12 +24,30 @@ def load_data():
 
 @st.cache_resource
 def load_model():
-    with open("model.pkl", "rb") as f:
-        model = pickle.load(f)
-    with open("feature_names.pkl", "rb") as f:
-        feature_names = pickle.load(f)
-    return model, feature_names
+    try:
+        # Load the model
+        with open("model.pkl", "rb") as f:
+            model = pickle.load(f)
 
+        # Load the feature names
+        with open("feature_names.pkl", "rb") as f:
+            feature_names = pickle.load(f)
+
+        return model, feature_names
+
+    except FileNotFoundError as e:
+        st.error(f"❌ File not found: {e.filename}. Make sure 'model.pkl' and 'feature_names.pkl' are in the same folder as app.py.")
+        st.stop()
+
+    except ModuleNotFoundError as e:
+        st.error(f"❌ Missing Python library: {e.name}. Add it to your requirements.txt file on Streamlit Cloud.")
+        st.stop()
+
+    except Exception as e:
+        st.error(f"❌ Error loading model: {str(e)}")
+        st.stop()
+
+# Example usage
 df = load_data()
 model, feature_names = load_model()
 

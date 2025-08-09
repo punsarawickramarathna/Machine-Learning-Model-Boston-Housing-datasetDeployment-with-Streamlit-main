@@ -156,7 +156,7 @@ This project is licensed under the **MIT License** – feel free to use and modi
 ## 👨‍💻 12. Author
 
 **Punsara Wickramarathna** – BSc(Hons) in Information Technology
-GitHub: [@yourusername](https://github.com/punsarawickramarathna)
+GitHub: [@punsarawickramarathna](https://github.com/punsarawickramarathna)
 
 ```
 

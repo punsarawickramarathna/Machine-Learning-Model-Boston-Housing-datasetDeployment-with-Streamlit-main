@@ -104,7 +104,7 @@ The Boston Housing dataset is widely used in regression problems, small enough f
 
 ---
 
-## ⚙️ 10. Installation & Setup
+## ⚙️ 8. Installation & Setup
 
 ### 1️⃣ Clone the repository
 ```bash
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 11. Running the App Locally
+## 🚀 9. Running the App Locally
 
 ```bash
 streamlit run app.py
@@ -138,7 +138,7 @@ Open the provided local URL in your browser (e.g., `http://localhost:8501`).
 
 ---
 
-## 📈 12. Model Performance Summary
+## 📈 10. Model Performance Summary
 
 * **Algorithm**: Random Forest Regressor
 * **R² Score**: 0.87
@@ -147,16 +147,16 @@ Open the provided local URL in your browser (e.g., `http://localhost:8501`).
 
 ---
 
-## 📜 13. License
+## 📜 11. License
 
 This project is licensed under the **MIT License** – feel free to use and modify.
 
 ---
 
-## 👨‍💻 14. Author
+## 👨‍💻 12. Author
 
 **Punsara Wickramarathna** – BSc(Hons) in Information Technology
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@yourusername](https://github.com/punsarawickramarathna)
 
 ```
 
